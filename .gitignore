@@ -26,6 +26,6 @@ yarn-error.log*
 # Ignorar todos los cambios hechos en la carpeta principal
 /D:/Desarrollo/Proyectos 2024/Git Sistema de Inventario/Front End/
 
-# Excepto la carpeta 'invensmart' y sus contenidos
-!/D:/Desarrollo/Proyectos 2024/Git Sistema de Inventario/Front End/invensmart/
+# Excepto la carpeta 'CoachAcademy' y sus contenidos
+!/D:/Desarrollo/Proyectos 2024/Git Sistema de Inventario/Front End/coachacademy/
 !/D:/Desarrollo/Proyectos 2024/Git Sistema de Inventario/coreui-free-react-admin-template-main

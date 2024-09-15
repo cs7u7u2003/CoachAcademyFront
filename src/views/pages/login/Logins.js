@@ -15,6 +15,8 @@ import {
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 import { cilLockLocked, cilUser } from '@coreui/icons'
+import '../assets/styles/login-background.css';
+
 
 const Login = () => {
   const [username, setUsername] = useState('')
@@ -27,7 +29,7 @@ const Login = () => {
   }
 
   return (
-    <div className="bg-body-tertiary min-vh-100 d-flex flex-row align-items-center">
+    <div className="login-background min-vh-100 d-flex flex-row align-items-center">
       <CContainer>
         <CRow className="justify-content-center">
           <CCol md={6}>

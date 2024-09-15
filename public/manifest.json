@@ -1,9 +1,9 @@
 {
-  "short_name": "InvenSmart-React",
+  "short_name": "CoachAcademy-React",
   "name": "Sistema de Inventario",
   "icons": [
     {
-      "src": "./assets/img/InvenSmart_Logo.png",
+      "src": "./assets/img/CoachAcademy.jpg",
       "sizes": "100x100",
       "type": "image/png"
     }

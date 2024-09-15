@@ -3,7 +3,7 @@ import { CContainer, CRow, CCol, CCard, CCardBody, CCardGroup, CAlert } from '@c
 import { login } from '../../../utils/LoginApi';
 import LoginForm from '../../../components/LoginForm';
 import { useNavigate } from 'react-router-dom';
-
+import '../../../scss/login-background.scss';
 const Login = ({ setIsLoggedIn }) => {
   const navigate = useNavigate();
   const [alertVisible, setAlertVisible] = useState(false);
@@ -42,7 +42,7 @@ const Login = ({ setIsLoggedIn }) => {
   };
 
   return (
-    <div className="c-app c-default-layout d-flex flex-row align-items-center" style={{ minHeight: '100vh' }}>
+    <div className="login-background c-app c-default-layout d-flex flex-row align-items-center">
       <CContainer>
         <CRow className="justify-content-center">
           <CCol md={6}>
