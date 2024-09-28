@@ -20,7 +20,7 @@ const Login = ({ setIsLoggedIn }) => {
         setTimeout(() => {
           setAlertVisible(false);
         }, 5000);
-      } else if (data && data.userId) { // Verificamos si los datos contienen userId
+      } else if (data && data.usuario.userId) { // Verificamos si los datos contienen userId
         localStorage.setItem('user', JSON.stringify(data)); // Guarda los datos del usuario en el almacenamiento local
         setIsLoggedIn(true); // Actualiza el estado de autenticación en App.js
         navigate('/DefaultLayout', { state: { responseData: data } });
@@ -40,7 +40,7 @@ const Login = ({ setIsLoggedIn }) => {
       }, 5000);
     }
   };
-
+ 
   return (
     <div className="login-background c-app c-default-layout d-flex flex-row align-items-center">
       <CContainer>
